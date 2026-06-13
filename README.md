@@ -16,7 +16,6 @@ A complete implementation of a Retrieval-Augmented Generation (RAG) pipeline tha
 ### Installation
 
 ```bash
-cd 11
 pip install -r requirements.txt
 ```
 
