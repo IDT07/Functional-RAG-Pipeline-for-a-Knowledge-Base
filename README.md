@@ -204,7 +204,7 @@ Confidence: High - All information directly sourced from the knowledge base.
 ## 📦 Project Structure
 
 ```
-11/
+Functional-RAG-Pipeline-for-a-Knowledge-Base/
 ├── ingest.py              # Document loading and chunking
 ├── index.py               # Embedding and indexing
 ├── retrieve_generate.py   # RAG pipeline implementation
