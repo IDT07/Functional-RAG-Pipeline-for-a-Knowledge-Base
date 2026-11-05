@@ -204,20 +204,20 @@ Confidence: High - All information directly sourced from the knowledge base.
 ## 📦 Project Structure
 
 ```
-Functional-RAG-Pipeline-for-a-Knowledge-Base/
-├── ingest.py              # Document loading and chunking
-├── index.py               # Embedding and indexing
-├── retrieve_generate.py   # RAG pipeline implementation
-├── requirements.txt       # Dependencies
-├── .env                   # API keys
-├── README.md             # Documentation
-├── data/                 # Knowledge base documents
-│   ├── ai_overview.txt
-│   ├── machine_learning.txt
-│   ├── deep_learning.txt
-│   └── nlp_fundamentals.txt
-└── vectorstore/          # FAISS index (generated)
-    └── faiss_index/
+RAG-Pipeline/
+         ├── ingest.py              # Document loading and chunking
+         ├── index.py               # Embedding and indexing
+         ├── retrieve_generate.py   # RAG pipeline implementation
+         ├── requirements.txt       # Dependencies
+         ├── .env                   # API keys
+         ├── README.md             # Documentation
+         ├── data/                 # Knowledge base documents
+         │   ├── ai_overview.txt
+         │   ├── machine_learning.txt
+         │   ├── deep_learning.txt
+         │   └── nlp_fundamentals.txt
+         └── vectorstore/          # FAISS index (generated)
+             └── faiss_index/
 ```
 
 ## 💡 Key Design Decisions
